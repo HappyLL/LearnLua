@@ -1,0 +1,27 @@
+﻿Build started 2016/2/3 14:13:15.
+     1>Project "D:\learn\lua-learn\LearnLua\luadll\luadll\luadll.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\learn\lua-learn\LearnLua\luadll\Release\".
+         Creating directory "Release\luadll.tlog\".
+       InitializeBuildStatus:
+         Creating "Release\luadll.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\luadll.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         {{xgTaskID=00000005}}
+         stdafx.cpp
+     1>stdafx.cpp(29): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+         {{xgTaskID=00000000}}
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\learn\lua-learn\LearnLua\luadll\Release\luadll.lib" /NOLOGO /LTCG Release\stdafx.obj
+         {{xgTaskID=00000006}}
+         
+         {{xgTaskID=00000000}}
+         luadll.vcxproj -> D:\learn\lua-learn\LearnLua\luadll\Release\luadll.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\luadll.tlog\unsuccessfulbuild".
+         Touching "Release\luadll.tlog\luadll.lastbuildstate".
+     1>Done Building Project "D:\learn\lua-learn\LearnLua\luadll\luadll\luadll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.80

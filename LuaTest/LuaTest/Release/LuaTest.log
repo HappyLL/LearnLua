@@ -1,0 +1,26 @@
+﻿Build started 2016/2/2 17:12:25.
+     1>Project "D:\learn\lua-learn\LearnLua\LuaTest\LuaTest\LuaTest.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\learn\lua-learn\LearnLua\LuaTest\Release\".
+         Creating directory "Release\LuaTest.tlog\".
+       InitializeBuildStatus:
+         Creating "Release\LuaTest.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\LuaTest.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         {{xgTaskID=00000005}}
+         stdafx.cpp
+         {{xgTaskID=00000000}}
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\learn\lua-learn\LearnLua\LuaTest\Release\LuaTest.lib" /NOLOGO /LTCG Release\stdafx.obj
+         {{xgTaskID=00000006}}
+         
+         {{xgTaskID=00000000}}
+         LuaTest.vcxproj -> D:\learn\lua-learn\LearnLua\LuaTest\Release\LuaTest.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\LuaTest.tlog\unsuccessfulbuild".
+         Touching "Release\LuaTest.tlog\LuaTest.lastbuildstate".
+     1>Done Building Project "D:\learn\lua-learn\LearnLua\LuaTest\LuaTest\LuaTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.99

@@ -1,0 +1,19 @@
+﻿Build started 2/3/2016 5:08:54 PM.
+     1>Project "D:\learn\lua-learn\LearnLua\candlua\candlua\candlua.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\learn\lua-learn\LearnLua\candlua\candlua\lua-5.3.2" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test_3.cpp
+         test_3.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\learn\lua-learn\LearnLua\candlua\Debug\candlua.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\learn\lua-learn\LearnLua\candlua\candlua" LuaTest.lib lualib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\learn\lua-learn\LearnLua\candlua\Debug\candlua.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\learn\lua-learn\LearnLua\candlua\Debug\candlua.lib" /MACHINE:X86 Debug\test_3.obj
+         lualib.lib(lstate.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>test_3.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         candlua.vcxproj -> D:\learn\lua-learn\LearnLua\candlua\Debug\candlua.exe
+     1>Done Building Project "D:\learn\lua-learn\LearnLua\candlua\candlua\candlua.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.06
